@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планер</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://kontur.ru/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/planner.css">
+</head>
+<body class="planner">
+    <nav class="header">
+        <a href="/index.html">Главная</a>
+        <a href="/planner.html">Планер</a>
+        <a href="/templates.html">Письма</a>
+        <a href="/links.html">Ссылки</a>
+        <a href="/clients.html">Советник</a>
+        <a href="/post_sales.html">Взаимодействия с другими подразделениями</a>
+        <a href="/analytics.html">Стратегия закрытия плана</a>
+        <h1>Планер</h1>
+    </nav>
+    <div class="container">
+        <div class="task-container">
+            <h2>Список задач</h2>
+            <div class="task-input">
+                <input type="text" id="task-title" placeholder="Введите задачу">
+                <button class="btn" id="add-task-btn"><i class="fas fa-plus"></i> Добавить</button>
+            </div>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+    <script src="/js/planner.js"></script>
+</body>
+</html>

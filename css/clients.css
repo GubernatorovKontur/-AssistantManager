@@ -1,0 +1,126 @@
+/* /css/clients.css */
+body.clients .container {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 12px;
+    cursor: pointer;
+    color: #6A0DAD;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar li:hover, .sidebar li.active {
+    background-color: #6A0DAD;
+    color: #FFFFFF;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F5F6F5;
+    border-radius: 10px;
+}
+
+.content h3 {
+    color: #6A0DAD;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.content p {
+    color: #666666;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.note {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal.hidden {
+    display: none !important;
+}
+
+.modal-content {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.modal-content .close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-content label {
+    font-weight: 700;
+    color: #333333;
+}
+
+.modal-content select, .modal-content textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #6A0DAD;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.modal-content textarea {
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    body.clients .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+    }
+}

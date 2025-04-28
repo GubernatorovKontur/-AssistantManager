@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ссылки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://kontur.ru/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/links.css">
+</head>
+<body class="links">
+    <nav class="header">
+        <a href="/index.html">Главная</a>
+        <a href="/planner.html">Планер</a>
+        <a href="/templates.html">Письма</a>
+        <a href="/links.html">Ссылки</a>
+        <a href="/clients.html">Советник</a>
+        <a href="/post_sales.html">Взаимодействия с другими подразделениями</a>
+        <a href="/analytics.html">Стратегия закрытия плана</a>
+        <h1>Ссылки</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Поиск по ссылкам...">
+            <div class="search-results" id="search-results"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <ul id="group-list"></ul>
+            <button id="add-group-btn" class="btn"><i class="fas fa-plus"></i> Добавить группу</button>
+        </div>
+        <div class="content">
+            <button id="add-link-btn" class="btn"><i class="fas fa-link"></i> Добавить ссылку</button>
+            <div class="block">
+                <h2>Предустановленные ссылки</h2>
+                <p><i class="fas fa-link"></i> <a href="/newbie_links.html">Полезные ссылки для новичка</a> [Обучение]</p>
+            </div>
+            <div id="content"></div>
+        </div>
+    </div>
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="modal-close" class="close">×</span>
+            <form id="modal-form">
+                <label for="modal-title">Название:</label>
+                <input type="text" id="modal-title" required>
+                <label for="modal-desc">Описание:</label>
+                <textarea id="modal-desc"></textarea>
+                <label for="modal-url">URL:</label>
+                <input type="url" id="modal-url">
+                <input type="hidden" id="modal-id">
+                <button type="submit" class="btn">Сохранить</button>
+            </form>
+        </div>
+    </div>
+    <script src="/js/links.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* /css/planner.css */
+.task-container {
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.task-container h2 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #00A886;
+    border-radius: 5px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item.completed {
+    background-color: #E6F4EA;
+    text-decoration: line-through;
+    color: #666666;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-item span {
+    flex: 1;
+}
+
+.task-item .delete-btn {
+    background: none;
+    border: none;
+    color: #FF5733;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .task-container {
+        max-width: 100%;
+    }
+    .task-input {
+        flex-direction: column;
+    }
+    .task-input input {
+        width: 100%;
+    }
+}

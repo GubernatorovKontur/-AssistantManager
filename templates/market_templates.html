@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблоны Маркет</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://kontur.ru/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/market_templates.css">
+</head>
+<body class="templates">
+    <nav class="header">
+        <a href="/index.html">Главная</a>
+        <a href="/planner.html">Планер</a>
+        <a href="/templates.html">Письма</a>
+        <a href="/links.html">Ссылки</a>
+        <a href="/clients.html">Советник</a>
+        <a href="/post_sales.html">Взаимодействия с другими подразделениями</a>
+        <a href="/analytics.html">Стратегия закрытия плана</a>
+        <h1>Шаблоны Маркет</h1>
+    </nav>
+    <div class="container">
+        <div class="blocks-container">
+            <div class="blocks">
+                <h2>Выберите блоки писем</h2>
+
+                <!-- Приветствие клиента -->
+                <div class="greeting-options" id="greeting-options">
+                    <div class="collapsible">Приветствие клиента</div>
+                    <div class="content" id="greeting-content"></div>
+                </div>
+
+                <!-- Цель -->
+                <div class="purpose-options" id="purpose-options">
+                    <div class="collapsible">Цель</div>
+                    <div class="content">
+                        <label><input type="checkbox" data-purpose="renewal"> Продление</label>
+                        <div id="renewal-date-input" style="display: none; margin-left: 20px;">
+                            <input type="text" id="renewal-date" placeholder="дд.мм.гггг" maxlength="10">
+                        </div>
+                        <label><input type="checkbox" data-purpose="sale"> Продажа</label><br>
+                        <label><input type="checkbox" data-purpose="info"> Информация</label>
+                    </div>
+                </div>
+
+                <!-- Тарифы -->
+                <div class="tariffs-options" id="tariffs-options">
+                    <div class="collapsible">Тарифы</div>
+                    <div class="content" id="tariffs-content"></div>
+                </div>
+
+                <!-- Монотарифы -->
+                <div class="mono-tariffs-options" id="mono-tariffs-options">
+                    <div class="collapsible">Монотарифы</div>
+                    <div class="content" id="mono-tariffs-content"></div>
+                </div>
+
+                <!-- Все госсистемы -->
+                <div class="state-systems-options" id="state-systems-options">
+                    <div class="collapsible">Все госсистемы</div>
+                    <div class="content" id="state-systems-content"></div>
+                </div>
+
+                <!-- Повышение тарифа -->
+                <div class="upgrade-options" id="upgrade-options">
+                    <div class="collapsible">Повышение тарифа</div>
+                    <div class="content" id="upgrade-content"></div>
+                </div>
+
+                <!-- Стоимость услуг -->
+<div class="cost-options" id="cost-options">
+    <div class="collapsible">Стоимость услуг</div>
+    <div class="content">
+        <label><input type="checkbox" data-cost="one-year"> 1 год</label>
+        <div class="cost-inputs" id="one-year-inputs" style="display: none;">
+            <input type="text" id="one-year-invoice" placeholder="Номер счета" required>
+            <input type="text" id="one-year-price" placeholder="Стоимость (руб.)" required>
+            <input type="text" id="one-year-discount" placeholder="Скидка (%)">
+            <select id="one-year-gift">
+                <option value="">Без подарка</option>
+                <option value="1">1 месяц</option>
+                <option value="2">2 месяца</option>
+                <option value="3">Квартал в подарок</option>
+            </select>
+        </div>
+        <label><input type="checkbox" data-cost="two-years"> 2 года</label>
+        <div class="cost-inputs" id="two-years-inputs" style="display: none;">
+            <input type="text" id="two-years-invoice" placeholder="Номер счета" required>
+            <input type="text" id="two-years-price" placeholder="Стоимость (руб.)" required>
+            <input type="text" id="two-years-discount" placeholder="Скидка (%)">
+            <select id="two-years-gift">
+                <option value="">Без подарка</option>
+                <option value="1">1 месяц</option>
+                <option value="2">2 месяца</option>
+                <option value="3">Квартал в подарок</option>
+            </select>
+        </div>
+        <label><input type="checkbox" data-cost="three-years"> 3 года</label>
+        <div class="cost-inputs" id="three-years-inputs" style="display: none;">
+            <input type="text" id="three-years-invoice" placeholder="Номер счета" required>
+            <input type="text" id="three-years-price" placeholder="Стоимость (руб.)" required>
+            <input type="text" id="three-years-discount" placeholder="Скидка (%)">
+            <select id="three-years-gift">
+                <option value="">Без подарка</option>
+                <option value="1">1 месяц</option>
+                <option value="2">2 месяца</option>
+                <option value="3">Квартал в подарок</option>
+            </select>
+        </div>
+        <div style="margin-top: 10px;">
+            <label>Дата действия счетов: <input type="text" id="cost-date" placeholder="дд.мм.гггг" required></label>
+            <select id="cost-date-select">
+                <option value="">Выберите срок</option>
+                <option value="7">7 дней</option>
+                <option value="14">2 недели</option>
+                <option value="30">1 месяц</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+                <!-- Кнопки управления -->
+                <div class="import-button">
+                    <button class="btn">Импорт из буфера</button>
+                </div>
+                <div class="reset-button">
+                    <button class="btn">Сбросить всё</button>
+                </div>
+            </div>
+            <div class="email-preview">
+                <h2>Предварительный просмотр письма</h2>
+                <div class="email-content" id="email-content">
+                    <div class="logo">
+                        <img src="https://kontur.ru/favicon.ico" alt="Логотип">
+                    </div>
+                    <div id="greeting-preview"></div>
+                    <div id="purpose-preview"></div>
+                    <div id="tariffs-preview"></div>
+                    <div id="mono-tariffs-preview"></div>
+                    <div id="upgrade-preview"></div>
+                    <div id="cost-preview"></div>
+                </div>
+                <div class="copy-button">
+                    <button class="btn">Копировать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/market_templates.js"></script>
+</body>
+</html>

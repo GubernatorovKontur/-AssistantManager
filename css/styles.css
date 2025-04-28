@@ -1,0 +1,234 @@
+/* /css/styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav.header {
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/* Цвета шапки по психологии для каждой страницы */
+body.index nav.header {
+    background: linear-gradient(90deg, #00A886, #008f6f); /* Зеленый для Главной */
+}
+
+body.planner nav.header {
+    background: linear-gradient(90deg, #007BFF, #0056b3); /* Синий для Планера */
+}
+
+body.templates nav.header {
+    background: linear-gradient(90deg, #FFA726, #F57C00); /* Спокойный оранжевый для Писем */
+}
+
+body.links nav.header {
+    background: linear-gradient(90deg, #00A886, #008f6f); /* Зеленый для Ссылок */
+}
+
+body.clients nav.header {
+    background: linear-gradient(90deg, #6A0DAD, #4b0778); /* Фиолетовый для Советника */
+}
+
+body.post_sales nav.header {
+    background: linear-gradient(90deg, #FFC107, #e0a800); /* Желтый для Взаимодействий */
+}
+
+body.analytics nav.header {
+    background: linear-gradient(90deg, #003087, #00205b); /* Темно-синий для Стратегии */
+}
+
+nav.header h1 {
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+
+nav.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav.header a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+    background-color: #F9F9F9;
+    margin-top: 120px;
+    flex: 1;
+}
+
+/* Для всех страниц кроме newbie_links.html */
+body:not(.links) .container {
+    display: block;
+}
+
+/* Общие стили для блоков */
+.block {
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.block:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.block h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.block p {
+    color: #666666;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #00A886;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00C89F;
+}
+
+.btn:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #00A886;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #00C89F;
+    outline: none;
+}
+
+.notification {
+    background-color: #FFFFFF;
+    border-left: 4px solid #00A886;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Templates grid для выбора шаблонов */
+.templates-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.templates-grid .block {
+    width: 300px;
+    text-decoration: none;
+    color: #333333;
+    transition: box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.templates-grid .block:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.template-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.template-card i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #333333;
+}
+
+.template-info h2 {
+    font-size: 18px;
+    margin: 0 0 5px;
+    color: #00A886;
+}
+
+.template-info p {
+    font-size: 14px;
+    margin: 0;
+    color: #666666;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 140px;
+    }
+    nav.header {
+        padding: 10px;
+    }
+    nav.header a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .block {
+        width: 100%;
+    }
+    input, select, textarea {
+        width: 100%;
+    }
+    .templates-grid .block {
+        width: 100%;
+    }
+}

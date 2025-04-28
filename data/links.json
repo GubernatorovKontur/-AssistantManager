@@ -1,0 +1,95 @@
+{
+    "favorites": [],
+    "mchd": [
+        {"id": "mchd-1", "title": "Видео по МЧД", "desc": "Обучающее видео", "url": "https://info.kontur.ru/documents/a6a62b8e-1c2c-4562-ad37-377e09c44c74", "tooltip": "Видео о машиночитаемых доверенностях", "category": "МЧД"},
+        {"id": "mchd-2", "title": "Новости по МЧД", "desc": "Актуальные обновления", "url": "https://info.kontur.ru/news/5e865922-4978-40bb-aff0-dc0c9a92298b", "tooltip": "Новости и обновления по МЧД", "category": "МЧД"}
+    ],
+    "market": [
+        {"id": "market-1", "title": "Контур.Маркет", "desc": "ЕГАИС, Меркурий, Маркировка", "url": "https://staff.skbkontur.ru/group/3334", "tooltip": "Группа для сотрудников по продукту Маркет", "category": "Группы"},
+        {"id": "market-2", "title": "Контур.Маркировка", "desc": "Общий раздел", "url": "https://staff.skbkontur.ru/group/8990?action=feed", "tooltip": "Лента новостей по маркировке", "category": "Группы"},
+        {"id": "market-3", "title": "Контур.Маркировка Фарма", "desc": "Фармацевтика", "url": "https://staff.skbkontur.ru/group/15524", "tooltip": "Группа по маркировке в фармацевтике", "category": "Группы"},
+        {"id": "market-4", "title": "Меркурий в Контуре", "desc": "Информация о Меркурии", "url": "https://staff.skbkontur.ru/group/6403?action=about", "tooltip": "Описание работы с Меркурием", "category": "Группы"},
+        {"id": "market-5", "title": "Изменения условий лидогенерации", "desc": "Обновления в Маркировке", "url": "https://staff.skbkontur.ru/article/6177f1cb3b4d5393ba21df3d", "tooltip": "Статья об изменениях в лидогенерации", "category": "Инструкции и материалы 1"},
+        {"id": "market-6", "title": "Вебинары Маркета", "desc": "Расписание мероприятий", "url": "https://kontur.ru/market/webinari#raspisanie", "tooltip": "Расписание вебинаров по Контур.Маркет", "category": "Инструкции и материалы 1"},
+        {"id": "market-7", "title": "Отчёты в Маркете", "desc": "Аналитика", "url": "https://support.kontur.ru/market/39505-otchety", "tooltip": "Инструкция по отчётам в Маркете", "category": "Инструкции и материалы 1"},
+        {"id": "market-8", "title": "Акции в Маркете", "desc": "Специальные предложения", "url": "https://info.kontur.ru/products/377579b2-1fe0-4814-b9da-f9971f82bd3d/actions", "tooltip": "Текущие акции и скидки", "category": "Инструкции и материалы 1"},
+        {"id": "market-9", "title": "Модуль интеграции с 1С", "desc": "Настройка", "url": "https://support.kontur.ru/market/39527-nastrojka_integracii_modulya_marketa_s_1c", "tooltip": "Инструкция по интеграции с 1С", "category": "Инструкции и материалы 1"},
+        {"id": "market-10", "title": "Чаевые в Маркете", "desc": "Электронные чаевые", "url": "https://support.kontur.ru/market/39590-qr_kody_dlya_priema_elektronnyx_chaevyx", "tooltip": "Как настроить QR-коды для чаевых", "category": "Инструкции и материалы 2"},
+        {"id": "market-11", "title": "Гашение ВСД на портале Меркурий", "desc": "Официальный портал", "url": "https://mercury-vetrf-ru.ru/pub.html", "tooltip": "Инструкция по гашению ВСД", "category": "Инструкции и материалы 2"},
+        {"id": "market-12", "title": "Безобразия в оформлении ВСД", "desc": "Новости", "url": "https://www.vetrf.ru/vetrf/news/43988.html", "tooltip": "Проблемы с оформлением ветеринарных сертификатов", "category": "Инструкции и материалы 2"},
+        {"id": "market-13", "title": "Безопасное применение скидок", "desc": "Справочная информация", "url": "https://kontur.ru/market/spravka/20006-kak_bezopasno_primenyat_skidki_i_bonusy", "tooltip": "Как безопасно применять скидки и бонусы", "category": "Инструкции и материалы 2"},
+        {"id": "market-14", "title": "Организация торгового зала", "desc": "Повышение продаж", "url": "https://kontur.ru/articles/6028", "tooltip": "Как организовать торговый зал для повышения продаж", "category": "Инструкции и материалы 2"},
+        {"id": "market-15", "title": "Демо алкодекларации", "desc": "Бесплатная версия", "url": "https://alko.kontur.ru/SelectOrganizatio", "tooltip": "Попробовать создание алкодекларации", "category": "Демо"}
+    ],
+    "ofd": [
+        {"id": "ofd-1", "title": "Контур.ОФД", "desc": "Группа для сотрудников", "url": "https://staff.skbkontur.ru/group/4461?action=feed", "tooltip": "Лента новостей по ОФД", "category": "Группы"},
+        {"id": "ofd-2", "title": "Одержимые качеством", "desc": "Группа сотрудников", "url": "https://staff.skbkontur.ru/group/1992", "tooltip": "Группа для сотрудников, стремящихся к качеству", "category": "Группы"},
+        {"id": "ofd-3", "title": "Настройка балансов", "desc": "Инструкция по филиалам", "url": "https://support.kontur.ru/ofd/40287-balans_dlya_kazhdogo_filiala", "tooltip": "Как настроить балансы для филиалов", "category": "Инструкции и материалы"},
+        {"id": "ofd-4", "title": "Информация по ОФД", "desc": "Статьи по 54-ФЗ", "url": "https://kontur.ru/ofd/spravka/stati-po-54-fz", "tooltip": "Справочные материалы по закону 54-ФЗ", "category": "Инструкции и материалы"},
+        {"id": "ofd-5", "title": "Выставление счёта", "desc": "Инструкция", "url": "https://support.kontur.ru/pages/viewpage.action?pageId=18353308", "tooltip": "Как выставить счёт в ОФД", "category": "Инструкции и материалы"},
+        {"id": "ofd-6", "title": "Кассы с ФФД 1.2", "desc": "Совместимость", "url": "https://kontur.ru/ofd/news/7744", "tooltip": "Список касс, готовых к ФФД 1.2", "category": "Инструкции и материалы"},
+        {"id": "ofd-7", "title": "Подбор ФН", "desc": "Инструкция", "url": "https://info.kontur.ru/articles/917820ed-ab57-4ebd-9b93-51afd7db259c", "tooltip": "Как подобрать фискальный накопитель", "category": "Инструкции и материалы"},
+        {"id": "ofd-8", "title": "Демо-версия ОФД", "desc": "Пример работы", "url": "https://ofd-project.kontur.ru/83ae3197-bae8-4026-890c-7e6016dd9aed/Report", "tooltip": "Демонстрация интерфейса ОФД", "category": "Демо"},
+        {"id": "ofd-9", "title": "Веб на ОФД", "desc": "Запись конференции", "url": "https://kontur.ktalk.ru/recordings/s7YWKvIXFak3yM4uLk3I", "tooltip": "Видео о работе с ОФД", "category": "Демо"}
+    ],
+    "education": [
+        {"id": "education-1", "title": "SALES EDUCATION", "desc": "Для продавцов", "url": "https://staff.skbkontur.ru/group/17412", "tooltip": "Обучение для тех, кто продаёт", "category": "Обучение"},
+        {"id": "education-2", "title": "Обучение по маркировке", "desc": "Честный ЗНАК", "url": "https://честныйзнак.рф/lectures/education/", "tooltip": "Курсы по работе с маркировкой", "category": "Обучение"},
+        {"id": "education-3", "title": "Чек-лист менеджера", "desc": "Пошаговое руководство", "url": "https://kontur.ru/articles/6183", "tooltip": "Чек-лист для менеджеров по продажам", "category": "Материалы по продажам"},
+        {"id": "education-4", "title": "Спич по холодной продаже", "desc": "Техники продаж", "url": "https://info.kontur.ru/articles/57a227c5-82bb-431c-9dac-6d1684e2bf86", "tooltip": "Как продавать по телефону", "category": "Материалы по продажам"},
+        {"id": "education-5", "title": "Свойства-выгоды", "desc": "Описание продуктов", "url": "https://info.kontur.ru/articles/5777396a-c3d6-461a-8843-c7baa72bea30", "tooltip": "Техническое описание и выгоды", "category": "Материалы по продажам"},
+        {"id": "education-6", "title": "Продажа эквайринга", "desc": "Инструкция", "url": "https://info.kontur.ru/articles/5aa49fa9-b87d-4ea8-a6a1-ba9c5fb61c8a", "tooltip": "Как продавать эквайринг", "category": "Материалы по продажам"}
+    ],
+    "reference": [
+        {"id": "reference-1", "title": "КонтурСправка", "desc": "Инструкции по сервисам", "url": "https://support.kontur.ru/", "tooltip": "Справочный центр Контура", "category": "Справочные ресурсы"},
+        {"id": "reference-2", "title": "Вся методология", "desc": "Статьи и инструкции", "url": "https://info.kontur.ru/products/15ce482f-1226-42cc-9dd8-767928e8c5ba/articles", "tooltip": "Полная база знаний", "category": "Справочные ресурсы"},
+        {"id": "reference-3", "title": "Подписка на новости ЭДО", "desc": "Электронный документооборот", "url": "https://sps.skbkontur.ru/Monitoring/default.aspx", "tooltip": "Новости по ЭДО", "category": "Справочные ресурсы"},
+        {"id": "reference-4", "title": "Описание модуля интеграции с 1С", "desc": "Техническое описание", "url": "https://info.kontur.ru/articles/4075bb5a-978c-47e1-9fba-fd79d2b9704c", "tooltip": "Подробности интеграции с 1С", "category": "Справочные ресурсы"},
+        {"id": "reference-5", "title": "Функциональность тарифов", "desc": "Подробное описание", "url": "https://info.kontur.ru/articles/442bc9bf-2496-4859-bce4-a9843f9f02bb", "tooltip": "Функциональность тарифов и модификаторов", "category": "Справочные ресурсы"},
+        {"id": "reference-6", "title": "Карта прототипов", "desc": "Дизайн и интерфейсы", "url": "https://katerinatsykina9439.invisionapp.com/console/share/C91GGTXQNS/478831724", "tooltip": "Прототипы интерфейсов", "category": "Дизайн и прототипы"}
+    ],
+    "video": [
+        {"id": "video-1", "title": "Чек на предоплату", "desc": "Видеоинструкция", "url": "https://www.youtube.com/watch?v=5Z3oCVKwhEQ", "tooltip": "Как создать чек на предоплату", "category": "Инструкции по чекам"},
+        {"id": "video-2", "title": "Чек для зачёта предоплаты", "desc": "Услуги", "url": "https://www.youtube.com/watch?v=fgXnghgjQNA", "tooltip": "Как зачесть предоплату для услуг", "category": "Инструкции по чекам"},
+        {"id": "video-3", "title": "Личный кабинет ОФД", "desc": "Инструкция", "url": "https://youtu.be/J9Zo_kqP13E", "tooltip": "Обзор личного кабинета ОФД", "category": "Инструкции по чекам"},
+        {"id": "video-4", "title": "Касса для кафе", "desc": "Выбор оборудования", "url": "https://www.youtube.com/watch?v=tCxxSASvsJI", "tooltip": "Какую кассу выбрать для кафе", "category": "Кассы и оборудование"},
+        {"id": "video-5", "title": "Обзор онлайн-касс", "desc": "Мифы и реальность", "url": "https://youtu.be/fIi_QY2DWdE", "tooltip": "Обзор касс и развенчание мифов", "category": "Кассы и оборудование"},
+        {"id": "video-6", "title": "Онлайн-кассы для ИП", "desc": "С 1 июля 2021", "url": "https://www.youtube.com/watch?v=1dYck2ThmrU", "tooltip": "Кому пора переходить на кассы", "category": "Кассы и оборудование"},
+        {"id": "video-7", "title": "Замена фискального накопителя", "desc": "Видеоинструкции", "url": "https://support.kontur.ru/pages/viewpage.action?pageId=9407916", "tooltip": "Как заменить фискальный накопитель", "category": "Кассы и оборудование"},
+        {"id": "video-8", "title": "Управленческий учёт", "desc": "Документ", "url": "https://info.kontur.ru/documents/00414802-af15-47a3-895b-47f68aa33734", "tooltip": "Описание управленческого учёта", "category": "Управленческий учёт"},
+        {"id": "video-9", "title": "Управленческий учёт (видео 1)", "desc": "Первая часть", "url": "https://vimeo.com/808283300", "tooltip": "Первое видео по управленческому учёту", "category": "Управленческий учёт"},
+        {"id": "video-10", "title": "Управленческий учёт (видео 2)", "desc": "Вторая часть", "url": "https://vimeo.com/808284743", "tooltip": "Второе видео по управленческому учёту", "category": "Управленческий учёт"},
+        {"id": "video-11", "title": "Демо управленческого учёта", "desc": "Пример", "url": "https://pulse.kontur.ru/demoBusiness/redirect", "tooltip": "Демонстрация управленческого учёта", "category": "Управленческий учёт"},
+        {"id": "video-12", "title": "Сложности переезда", "desc": "Советы", "url": "https://www.youtube.com/watch?v=MoA_T4BGGJk", "tooltip": "Как упростить переход на новые системы", "category": "Дополнительно"},
+        {"id": "video-13", "title": "API и бизнес-процессы", "desc": "Объяснение", "url": "https://www.youtube.com/watch?v=npEwC-Ho0ec", "tooltip": "Как API упрощает бизнес", "category": "Дополнительно"},
+        {"id": "video-14", "title": "Big Data в бизнесе", "desc": "Применение", "url": "https://www.youtube.com/watch?v=1r_0ZbADdkM", "tooltip": "Как использовать большие данные", "category": "Дополнительно"},
+        {"id": "video-15", "title": "Видосы Контур.Маркета", "desc": "Канал на YouTube", "url": "https://www.youtube.com/channel/UCZ4OKsBCdUFHsUaVxHpUUpA/videos", "tooltip": "Все видео Контур.Маркета", "category": "Дополнительно"},
+        {"id": "video-16", "title": "Видео для клиентов", "desc": "Обзор сервиса", "url": "https://info.kontur.ru/news/5e865922-4978-40bb-aff0-dc0c9a92298b", "tooltip": "Видео о сервисах для клиентов", "category": "Видео для клиентов"}
+    ],
+    "equipment": [
+        {"id": "equipment-1", "title": "Услуги внедрения ККТ", "desc": "Группа", "url": "https://staff.skbkontur.ru/group/5269", "tooltip": "Группа по внедрению ККТ", "category": "Группы"},
+        {"id": "equipment-2", "title": "Подключение к ЕГАИС", "desc": "Инструкция", "url": "https://support.kontur.ru/pages/viewpage.action?pageId=43069362", "tooltip": "Порядок подключения и выставление счёта", "category": "Инструкции и материалы 1"},
+        {"id": "equipment-3", "title": "Условия поставки оборудования", "desc": "Логистика", "url": "https://kontur.ru/ofd/delivery", "tooltip": "Условия доставки оборудования", "category": "Инструкции и материалы 1"},
+        {"id": "equipment-4", "title": "Совместимое оборудование", "desc": "Список", "url": "https://support.kontur.ru/pages/viewpage.action?pageId=43067097", "tooltip": "Оборудование для Контур.Маркета", "category": "Инструкции и материалы 1"},
+        {"id": "equipment-5", "title": "Прайслист на услуги", "desc": "Стоимость внедрения", "url": "https://kontur.ru/market/setting-kkt", "tooltip": "Цены на услуги внедрения ККТ", "category": "Инструкции и материалы 1"},
+        {"id": "equipment-6", "title": "Заявка на работы", "desc": "Форма", "url": "https://info.kontur.ru/products/27f06f9f-b897-4e7b-a116-b985d0a4699a/documents", "tooltip": "Заявка на проведение работ", "category": "Инструкции и материалы 1"},
+        {"id": "equipment-7", "title": "Договор оферты", "desc": "Условия", "url": "https://kontur.ru/market/service-kkt/oferta", "tooltip": "Договор на услуги внедрения", "category": "Инструкции и материалы 2"},
+        {"id": "equipment-8", "title": "Список ККТ", "desc": "Для внедрения", "url": "https://docs.google.com/spreadsheets/d/1PijzGwtm8OtrE0AFoogqsfYvIJNu_GtcOkmmMpsEN24/edit#gid=581204592", "tooltip": "Список поддерживаемых ККТ", "category": "Инструкции и материалы 2"},
+        {"id": "equipment-9", "title": "Терминалы эквайринга", "desc": "Инструкция", "url": "https://support.kontur.ru/pages/viewpage.action?pageId=43068832", "tooltip": "Как подключить терминалы", "category": "Инструкции и материалы 2"},
+        {"id": "equipment-10", "title": "ТСД", "desc": "Терминалы сбора данных", "url": "https://www.cleverence.ru/mobile-smarts/hardware/?arrFilterHW_572=703612022&set_filter=Y", "tooltip": "Совместимые ТСД", "category": "Инструкции и материалы 2"},
+        {"id": "equipment-11", "title": "Возврат техники", "desc": "Инструкция", "url": "https://info.kontur.ru/articles/5505687d-6bce-4694-b32c-0e604f483048", "tooltip": "Как организовать возврат техники", "category": "Инструкции и материалы 2"}
+    ],
+    "services": [
+        {"id": "services-1", "title": "Рассрочка от Тинькофф", "desc": "Условия", "url": "https://staff.skbkontur.ru/group/13076?action=about", "tooltip": "Информация о рассрочке", "category": "Рассрочка"},
+        {"id": "services-2", "title": "Маркет + ОФД (рассрочка)", "desc": "Комбинированное предложение", "url": "https://info.kontur.ru/articles/b323b264-71e3-49bc-89b4-f73136c927c6", "tooltip": "Рассрочка на Маркет и ОФД", "category": "Рассрочка"}
+    ],
+    "kontur-info": [
+        {"id": "kontur-info-1", "title": "Маркет", "desc": "Статьи о Маркете", "url": "https://info.kontur.ru/products/377579b2-1fe0-4814-b9da-f9971f82bd3d/articles", "tooltip": "Полезные материалы о Контур.Маркете", "category": "Статьи и материалы"},
+        {"id": "kontur-info-2", "title": "Маркировка в Маркете", "desc": "Статьи о маркировке", "url": "https://info.kontur.ru/products/af2e0f84-c4bb-454d-9e5e-39f0042407bf/articles", "tooltip": "Инструкции по маркировке в Маркете", "category": "Статьи и материалы"},
+        {"id": "kontur-info-3", "title": "Кассы", "desc": "Статьи о кассах", "url": "https://info.kontur.ru/products/27f06f9f-b897-4e7b-a116-b985d0a4699a/articles", "tooltip": "Полезные материалы о кассах", "category": "Статьи и материалы"},
+        {"id": "kontur-info-4", "title": "ОФД", "desc": "Статьи об ОФД", "url": "https://info.kontur.ru/products/15ce482f-1226-42cc-9dd8-767928e8c5ba/articles", "tooltip": "Полезные материалы об ОФД", "category": "Статьи и материалы"},
+        {"id": "kontur-info-5", "title": "Биллинг и Клиент-Сервис", "desc": "Материалы", "url": "https://info.kontur.ru/sale-services/5e1cd2f0-d9bc-4f55-ae0b-69a155bde5fe/articles", "tooltip": "Инструкции по биллингу и клиентскому сервису", "category": "Статьи и материалы"},
+        {"id": "kontur-info-6", "title": "Автоматизация общепита", "desc": "Бизнес-процессы", "url": "https://pro.rbc.ru/demo/60b093569a79471ecad57bc3", "tooltip": "Как общепит автоматизирует бизнес", "category": "Полезное для клиентов"},
+        {"id": "kontur-info-7", "title": "Ваш платежный проводник", "desc": "Новости", "url": "https://info.kontur.ru/news/d4519a0b-f962-418f-9a7c-91d917f34c2f?pid=ddf1d63b-1c08-455a-941a-63c0c508fae2", "tooltip": "Информация о платежных решениях", "category": "Полезное для клиентов"}
+    ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Помощник менеджера</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://kontur.ru/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body class="index">
+    <nav class="header">
+        <a href="/index.html">Главная</a>
+        <a href="/planner.html">Планер</a>
+        <a href="/templates.html">Письма</a>
+        <a href="/links.html">Ссылки</a>
+        <a href="/clients.html">Советник</a>
+        <a href="/post_sales.html">Взаимодействия с другими подразделениями</a>
+        <a href="/analytics.html">Стратегия закрытия плана</a>
+        <h1>Помощник менеджера</h1>
+    </nav>
+    <div class="container">
+        <div class="intro">
+            <h2>Добро пожаловать в Помощник менеджера!</h2>
+            <p>Это прототип инструмента, который упрощает работу менеджера по продажам: от планирования задач до закрытия плана. Вот что уже готово и что будет дальше: Подготовил Губернаторов Данила Алексеевич </p>
+        </div>
+        <div class="sections">
+            <div class="section">
+                <h3>Планер</h3>
+                <p>Простой список задач для ежедневной работы.</p>
+                <button class="btn" onclick="toggleDetails('planner-details')">Подробности</button>
+                <div id="planner-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Добавление задач, отметка выполнения, удаление, сохранение.</p>
+                    <p><strong>Будет:</strong> Дедлайны, приоритеты, фильтр невыполненных.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Письма</h3>
+                <p>Конструктор писем для общения с клиентами.</p>
+                <button class="btn" onclick="toggleDetails('templates-details')">Подробности</button>
+                <div id="templates-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Шаблоны для Маркета, предпросмотр, импорт/копирование.</p>
+                    <p><strong>Будет:</strong> Шаблоны ОФД/УВН, редактирование, новые категории.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Ссылки</h3>
+                <p>Удобное хранилище полезных ссылок.</p>
+                <button class="btn" onclick="toggleDetails('links-details')">Подробности</button>
+                <div id="links-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Категории, добавление, поиск, предустановленные ссылки.</p>
+                    <p><strong>Будет:</strong> Фильтр по тегам, сортировка, экспорт.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Советник</h3>
+                <p>Гайд по продажам продуктов Контура.</p>
+                <button class="btn" onclick="toggleDetails('clients-details')">Подробности</button>
+                <div id="clients-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Тарифы Маркета, ОФД, КЭП с советами, заметки.</p>
+                    <p><strong>Будет:</strong> Скрипты, возражения, мотивация.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Взаимодействия с другими подразделениями</h3>
+                <p>Инструкции для работы с коллегами.</p>
+                <button class="btn" onclick="toggleDetails('post-sales-details')">Подробности</button>
+                <div id="post-sales-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Чек-листы, шаблоны (лиды, внедрение, спецкейсы), заметки.</p>
+                    <p><strong>Будет:</strong> Примеры инцидентов, новые спецкейсы.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Стратегия закрытия плана</h3>
+                <p>Аналитика и мотивация для выполнения плана.</p>
+                <button class="btn" onclick="toggleDetails('analytics-details')">Подробности</button>
+                <div id="analytics-details" class="details hidden">
+                    <p><strong>Уже есть:</strong> Показатели, пул оплат, цели, геймификация (очки).</p>
+                    <p><strong>Будет:</strong> Редактирование оплат, сложная геймификация, интеграция с CRM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
